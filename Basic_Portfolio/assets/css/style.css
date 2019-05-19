@@ -1,0 +1,42 @@
+body, nav, h1, h2, p div, footer {
+    border: 1px solid black;
+}
+
+body {
+    width: 960px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+
+nav {
+    float: right;
+    color: gray;
+}
+
+.container {
+    width: 700px;
+    border: 1px solid black;
+}
+
+
+
