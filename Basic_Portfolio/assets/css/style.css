@@ -4,6 +4,7 @@ body, nav, h1, h2, p div, footer {
 
 body {
     width: 960px;
+    background-image: url("Basic_Portfolio/assets/css/images/white-waves.png");
 }
 
 h1 {
@@ -18,6 +19,13 @@ h1 {
     float: left;
 }
 
+h2 {
+    margin: 0px 25px 10px 25px;
+    padding: 10px 0px 20px 0px;
+    color: #4aaaa5;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -28,15 +36,33 @@ li {
     display: inline;
 }
 
-nav {
+nav { 
     float: right;
-    color: gray;
+    color: #777777;
 }
 
-.container {
+.content {
     width: 700px;
     border: 1px solid black;
+    margin: 35px 0px 50px 130px;
+    position: relative;
 }
 
+img {
+    float: left;
+    margin: 10px 10px 10px 25px;
+}
+
+footer {
+    text-align: center;
+    color: #777777;
+}
+
+p {
+    line-height: 1.3em;
+    margin: 5px;
+    text-align: justify;
+    color: #777777;
+}
 
 
