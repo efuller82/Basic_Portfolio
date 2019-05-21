@@ -73,9 +73,12 @@ nav {
 }
 
 img {
-    float: left;
     margin: 8px 10px 10px 25px;
     padding-bottom: 10px;
+}
+
+.profile_pic {
+    float: left;
 }
 
 footer {
@@ -135,3 +138,101 @@ a:active {
      background-color: #4aaaa5;
      color: white;
  }
+
+.hangman {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    float: left;
+    margin-right: 25px;
+}
+
+.hangman_text {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.rpg {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    float: left;
+    margin-right: 24px;
+}
+
+.rpg_text {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.trivia {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    float: left;
+    clear: both;
+    margin-right: 25px;
+}
+
+.trivia_text {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.rutgers {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    float: left;
+    margin-right: 25px;
+}
+
+.rutgers_text {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.rock_paper_scissors {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    float: left;
+    clear: both;
+    margin-right: 25px;
+}
+
+.rock_paper_scissors_text {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.portfolio_imgs {
+    overflow: auto;
+}
+
+
