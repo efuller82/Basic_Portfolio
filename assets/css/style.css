@@ -90,6 +90,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     flex: 1;
     margin-top: 150px;
+    bottom: 0;
 }
 
 p {
