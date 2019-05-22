@@ -91,8 +91,19 @@ footer {
     flex: 1;
     margin-top: 150px;
     bottom: 0;
+    position: relative;
 }
 
+#about_copy {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;  
+}
+
+#about_footer {
+    margin-top: 225px;
+}
+  
 p {
     line-height: 1.3em;
     margin: 12px 25px 0px 5px;
